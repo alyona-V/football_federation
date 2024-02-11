@@ -15,6 +15,7 @@ img.logo{
     border-radius: 100%;
     background-color: #fff;
     float: left;
+    max-width: 90px;
     margin: 5px;
     padding: 5px;
 }
@@ -39,6 +40,9 @@ img.logo{
 .left_side{
     margin: 0 auto;
     position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
 }
 .text{
     font-size: 20px;
@@ -102,4 +106,67 @@ footer{
     width: 33%;
     height: 70px;
     margin: 10px;
+}
+
+.blok_5{
+    display: flex;
+    margin: 100px auto;
+    width:67%;
+    justify-content: center;
+    align-items: start;
+    flex-flow: row nowrap;
+}
+.nav_fed{
+    background-color: #fff;
+    width: 25%;
+    max-height: 45%;
+}
+ul.nav_f{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    flex-flow: column;
+    justify-self: start;
+    
+}
+ul.nav_f li{
+    background-color: transparent;
+    margin: 5% 0 5% 0 ;
+    justify-content: stretch;
+    
+}
+.button_a{
+    position: relative;
+    border: 1px solid #0A2472;
+    display: inline-block;
+    line-height: 1;
+    color: #0A2472;
+    background: #fff;
+    padding: 0.35rem;
+    text-align: start;
+    width: 100%;
+    transition: color .3s, background .3s,border-color .3s;
+}
+.button_neact{
+    border: 1px solid #0A2472;
+    text-align:start;
+    position: relative;
+    background: #0A2472;
+    color: #fff;
+    padding: 0.35rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.blok_6{
+    display: flex;
+    background-color: #fff;
+    padding: 20px ;
+    width: 75%;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    min-height: 400px;
 }
