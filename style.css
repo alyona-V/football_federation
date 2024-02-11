@@ -32,7 +32,8 @@ img.logo{
     float: right;
     margin: 0 auto;
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 .left_side{
