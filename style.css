@@ -75,8 +75,8 @@ ul.nav li a{
     text-align: center;
     text-decoration: none;
 }
-ul.nav li a:hover {
-    background: rgb(105, 103, 245);
+ul.nav li a:active {
+    background-color: rgb(105, 103, 245);
 }
 .nav-list{
     display: inline-block;
