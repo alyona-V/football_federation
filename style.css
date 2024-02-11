@@ -1,7 +1,14 @@
+@font-face {
+	font-family: 'NotoSans'; 
+	src: url(fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf); 
+}
+
 body {
     line-height: 1;
     color: black;
     background: rgb(208, 208, 208);
+    font-family: 'NotoSans';
+    text-decoration: solid;
 }
 a{
     color: #fff;
@@ -16,6 +23,12 @@ i{
 }
 i:hover{
     -webkit-filter: brightness(30%);
+}
+i a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 img.logo{
     border-radius: 100%;
@@ -80,7 +93,6 @@ ul.nav li a{
     padding: 10px;
     display: block;
     text-align: center;
-    text-decoration: none;
     width: 100%;
 }
 .a_nav{
