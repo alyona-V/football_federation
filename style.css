@@ -22,7 +22,7 @@ i{
     margin: 2px;
 }
 i:hover{
-    -webkit-filter: brightness(30%);
+    -webkit-filter: brightness(70%);
 }
 i a{
     text-decoration: none;
