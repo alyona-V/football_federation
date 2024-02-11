@@ -75,6 +75,9 @@ ul.nav li a{
     text-align: center;
     text-decoration: none;
 }
+ul.nav li a:hover {
+    background: rgb(105, 103, 245);
+}
 .nav-list{
     display: inline-block;
 }
@@ -107,6 +110,9 @@ footer{
     color: #fff;
     height: 70px;
     margin: 10px;
+}
+.footer_button a{
+    color: #fff;
 }
 
 .blok_5{
