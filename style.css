@@ -77,7 +77,7 @@ ul.nav li a{
 }
 .example{
     background-color: rgb(184, 184, 184);
-    width: 600px;
+    width: 500px;
     margin: 10px;
     max-width: 50%;
 }
@@ -101,6 +101,6 @@ footer{
     background-color: #0C2A82;
     text-align: center;
     width: 33%;
-    height: 136px;
+    height: 100px;
     
 }
