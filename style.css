@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'NotoSans'; 
-	src: url(fonts/NotoSans-ExtraBold.ttf); 
+	src: url(fonts/static/NotoSans-ExtraBold.ttf); 
 }
 
 body {
