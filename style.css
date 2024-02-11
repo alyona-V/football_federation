@@ -15,7 +15,7 @@ i{
     margin: 2px;
 }
 i:hover{
-    -webkit-filter: brightness(70%);
+    background: rgb(164, 164, 164);
 }
 img.logo{
     border-radius: 100%;
