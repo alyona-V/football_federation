@@ -81,15 +81,7 @@ ul.nav li a{
     display: block;
     text-align: center;
     text-decoration: none;
-    width: 100%;
 }
-.a_nav{
-    color: rgb(231, 231, 170);
-}
-ul.nav li a:hover{
-    background-color: #140152;
-}
-
 .nav-list{
     display: inline-block;
 }
@@ -123,9 +115,7 @@ footer{
     height: 70px;
     margin: 10px;
 }
-.footer_button:hover{
-    
-}
+
 .blok_5{
     display: flex;
     margin: 100px auto;
