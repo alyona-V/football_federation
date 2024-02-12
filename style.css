@@ -1,6 +1,10 @@
 @font-face {
 	font-family: 'NotoSans'; 
+<<<<<<< HEAD
 	src: url(fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf); 
+=======
+	src: url(fonts/static/NotoSans-ExtraBold.ttf); 
+>>>>>>> 6b2c77b6e8c7d3d26cc2ebce44fdb7b3baec902c
 }
 
 body {
