@@ -66,6 +66,7 @@ img.logo{
 }
 .text{
     font-size: 20px;
+    letter-spacing: 1px;
 }
 .navigation{
     background: #0C2A82;
