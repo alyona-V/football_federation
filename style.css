@@ -2,16 +2,14 @@
 	font-family: 'NotoSans'; 
 	src: url(fonts/static/NotoSans-Bold.ttf);
 }
-html{
-    height: 100%;
-}
 body {
-    line-height: 1;
+    display: flex;
+    flex-direction: column;
     color: black;
     background: rgb(208, 208, 208);
     font-family: 'NotoSans';
     text-decoration: solid;
-    height: 100%;
+    min-height: 100vh;
 }
 a{
     color: #fff;
@@ -129,6 +127,7 @@ footer{
     color: white;
     padding: 10px;
     text-align: center;
+    margin-top: auto;
 }
 .footer_button{
     background-color: #0C2A82;
