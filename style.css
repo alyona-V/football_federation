@@ -2,13 +2,16 @@
 	font-family: 'NotoSans'; 
 	src: url(fonts/static/NotoSans-Bold.ttf);
 }
-
+html{
+    height: 100%;
+}
 body {
     line-height: 1;
     color: black;
     background: rgb(208, 208, 208);
     font-family: 'NotoSans';
     text-decoration: solid;
+    height: 100%;
 }
 a{
     color: #fff;
