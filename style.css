@@ -2,6 +2,7 @@
 	font-family: 'NotoSans'; 
 	src: url(fonts/static/NotoSans-Bold.ttf);
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -199,12 +200,14 @@ ul.nav_f li{
     background-color: #fff;
     padding: 20px ;
     width: 75%;
-    justify-content: center;
-    align-items: baseline;
-    flex-wrap: wrap;
+    justify-content: s;
+    align-items: center;
+    flex-flow: column;
     min-height: 400px;
 }
-
+.doc{
+    color: black;
+}
 .navbar {
     display: none;
 }
@@ -255,7 +258,7 @@ ul.nav_f li{
 
 @media only screen and (max-device-width: 576px){
     .logo{
-        padding: 50px 0;
+        height: 120px;
     }
     .navigation{
         display: none;
@@ -273,9 +276,13 @@ ul.nav_f li{
         left: 0;
         width: 100%;
         margin: auto;
-        padding: auto;
+        padding: 10% 0;
         top: 200px;
-        justify-content: stretch;
+        justify-content: space-around;
+        flex-flow: column;
+        align-items: center;
+        height: 75vh;
+        background-color: rgb(12, 42, 130, 0.5);
     }
 
     .burger-menu {
@@ -295,6 +302,12 @@ ul.nav_f li{
 
     .menu-items li a {
         color: #fff;
+        font-size: 36pt;
+    line-height: 22pt;
+    
+    }
+    .menu-items li a:hover{
+        font-size: 38pt ;
     }
 
     .menu-items.show {
@@ -327,4 +340,44 @@ ul.nav_f li{
         height: 131px;
         width: 131px;
     }
+    .blok_5{
+        flex-flow: column;
+        width: 100%;
+        margin: 0 0;
+        padding: 0 ;
+        align-items: center;
+    }
+    .nav_fed{
+        width: 100%;
+        position: sticky;
+        z-index: 101;
+        top: 200px;
+        
+
+    }
+    ul.nav_f{
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding: 0 1%;
+
+    }
+    ul.nav_f li{
+        background-color: transparent;
+        margin: 0  ;
+        
+        
+    }
+    .button_a{
+        padding: 1.5rem;
+        font-size: 20pt;
+        white-space: nowrap;
+    }
+    .button_neact{
+        padding: 1.5rem;
+        font-size: 20pt;
+        white-space: nowrap;
+        
+    }
+    
+    
 }
