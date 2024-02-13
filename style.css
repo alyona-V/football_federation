@@ -12,7 +12,10 @@ body {
     min-height: 100vh;
 }
 .header{
-    position: fixed;
+    width: 100%;
+    z-index: 100;
+    position: sticky;
+    top: 0;
 }
 a{
     color: #fff;
@@ -205,6 +208,6 @@ ul.nav_f li{
 }
 @media only screen and (max-device-width: 576px){
     .logo{
-        padding: 20px;
+        padding: 50px 0;
     }
 }
