@@ -218,26 +218,31 @@ ul.nav_f li{
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    float: right;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .line {
-    width: 25px;
-    height: 3px;
-    background-color: #fdfdfd;
-    margin: 3px;
+    width: 75px;
+    height: 5px;
+    background-color: #fff;
+    margin: 10px;
 }
 
 .menu-items {
     display: none;
     list-style: none;
-    background-color: #333;
+    background-color: #0C2A82;
     padding: 0;
     margin: 0;
 }
 
 .menu-items li {
     padding: 10px 20px;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #0C2A82;
 }
 
 .menu-items li:last-child {
@@ -272,6 +277,9 @@ ul.nav_f li{
         top: 60px;
         left: 0;
         width: 100%;
+        margin: auto;
+        padding: auto;
+        justify-content: stretch;
     }
 
     .burger-menu {
@@ -281,7 +289,7 @@ ul.nav_f li{
     .menu-items li {
         margin: 0;
         padding: 10px 20px;
-        border-bottom: 1px solid #555;
+        border-bottom: 1px solid #0C2A82;
     }
 
     .menu-items li:last-child {
@@ -295,5 +303,12 @@ ul.nav_f li{
     .menu-items.show {
         display: flex;
     }
-  
+    .text{
+        font-size: 30px;
+        margin: 5px;
+    }
+    .example{
+        width: 400px;
+        height: 400px;
+    }
 }
