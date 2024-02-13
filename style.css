@@ -17,9 +17,6 @@ body {
     position: sticky;
     top: 0;
 }
-#burger, [for=burger]{
-   display: none;
-}
 a{
     color: #fff;
 }
@@ -44,7 +41,6 @@ img.logo{
     border-radius: 100%;
     background-color: #fff;
     float: left;
-    max-width: 90px;
     margin: 5px;
     padding: 5px;
 }
@@ -55,7 +51,6 @@ img.logo{
     margin: 0 auto;
     padding: 10px;
     position: relative;
-    height: auto;
     justify-content: center;
 }
 .right_side{
@@ -221,7 +216,7 @@ ul.nav_f li{
     float: right;
     position: relative;
     justify-content: center;
-    align-items: center;
+    align-items: bottom;
     margin: 0 auto;
 }
 
@@ -284,6 +279,7 @@ ul.nav_f li{
 
     .burger-menu {
         display: flex;
+
     }
 
     .menu-items li {
@@ -304,11 +300,30 @@ ul.nav_f li{
         display: flex;
     }
     .text{
-        font-size: 30px;
+        font-size: 40px;
         margin: 5px;
+        letter-spacing: initial;
     }
     .example{
         width: 400px;
         height: 400px;
+    }
+    i{
+        width: 50px;
+        height: 50px;
+        margin: 8px;
+    }
+    .footer_button{
+        width: 40%;
+        height: 100px;
+        margin: 15px;
+        font-size: 20px;
+    }
+    .logo{
+        height: 200px;
+    }
+    img.logo{
+        height: 131px;
+        width: 131px;
     }
 }
