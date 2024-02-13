@@ -11,6 +11,9 @@ body {
     text-decoration: solid;
     min-height: 100vh;
 }
+.header{
+    position: fixed;
+}
 a{
     color: #fff;
 }
@@ -63,7 +66,7 @@ img.logo{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-}
+}  
 .text{
     font-size: 20px;
     letter-spacing: 1px;
@@ -199,4 +202,9 @@ ul.nav_f li{
     align-items: baseline;
     flex-wrap: wrap;
     min-height: 400px;
+}
+@media only screen and (max-device-width: 576px){
+    .logo{
+        padding: 20px;
+    }
 }
