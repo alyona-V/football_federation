@@ -2,6 +2,10 @@
 	font-family: 'NotoSans'; 
 	src: url(fonts/static/NotoSans-Bold.ttf);
 }
+@font-face {
+	font-family: 'NotoSans_footer'; 
+	src: url(fonts/static/NotoSans-Regular.ttf);
+}
 
 body {
     display: flex;
@@ -315,14 +319,14 @@ ul.nav_f li{
         height: 400px;
     }
     i{
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         margin: 8px;
     }
     .footer_button{
-        width: 40%;
+        width: 45%;
         height: 100px;
-        margin: 15px;
+        margin: 20px;
         font-size: 20px;
     }
     .logo{
@@ -376,5 +380,9 @@ ul.nav_f li{
     .doc{
         font-size: 26pt ;
         margin: 20px 0;
+    }
+    .footer_text{
+        font-size: 20px;
+        font-family: 'NotoSans_footer';
     }
 }
