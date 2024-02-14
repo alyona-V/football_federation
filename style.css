@@ -200,7 +200,7 @@ ul.nav_f li{
     background-color: #fff;
     padding: 20px ;
     width: 75%;
-    justify-content: s;
+    justify-content: space-evenly;
     align-items: center;
     flex-flow: column;
     min-height: 400px;
@@ -378,6 +378,8 @@ ul.nav_f li{
         white-space: nowrap;
         
     }
-    
+    .blok_6{
+        margin: 50px;
+    }
     
 }
