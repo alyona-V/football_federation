@@ -381,5 +381,8 @@ ul.nav_f li{
     .blok_6{
         margin: 50px;
     }
-    
+    .doc{
+        font-size: 26pt ;
+        margin: 20px 0;
+    }
 }
