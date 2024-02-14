@@ -267,7 +267,8 @@ ul.nav_f li{
         display: none;
     }
     .navbar {
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 
     .menu-items {
@@ -287,7 +288,6 @@ ul.nav_f li{
 
     .burger-menu {
         display: flex;
-
     }
 
     .menu-items li {
@@ -307,7 +307,7 @@ ul.nav_f li{
     
     }
     .menu-items li a:hover{
-        font-size: 38pt ;
+        font-size: 40pt ;
     }
 
     .menu-items.show {
