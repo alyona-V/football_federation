@@ -255,7 +255,9 @@ ul.nav_f li{
 .menu-items.show {
     display: flex;
 }
-
+div.blok_6{
+    margin: 5px;
+}
 @media only screen and (max-device-width: 576px){
     .logo{
         height: 120px;
@@ -348,8 +350,6 @@ ul.nav_f li{
         position: sticky;
         z-index: 101;
         top: 200px;
-        
-
     }
     ul.nav_f{
         flex-flow: row nowrap;
@@ -376,6 +376,7 @@ ul.nav_f li{
     }
     .blok_6{
         margin: 40px;
+        align-items: flex-start;
     }
     .doc{
         font-size: 26pt ;
@@ -384,5 +385,9 @@ ul.nav_f li{
     .footer_text{
         font-size: 20px;
         font-family: 'NotoSans_footer';
+    }
+    .contacts_foto{
+        align-items: center;
+        margin: 20px;
     }
 }
