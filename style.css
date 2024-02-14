@@ -243,10 +243,6 @@ ul.nav_f li{
     border-bottom: 1px solid #0C2A82;
 }
 
-.menu-items li:last-child {
-    border-bottom: none;
-}
-
 .menu-items li a {
     color: #fff;
     text-decoration: none;
@@ -296,14 +292,10 @@ ul.nav_f li{
         border-bottom: 1px solid #0C2A82;
     }
 
-    .menu-items li:last-child {
-        border-bottom: none;
-    }
-
     .menu-items li a {
         color: #fff;
         font-size: 36pt;
-    line-height: 22pt;
+        line-height: 22pt;
     
     }
     .menu-items li a:hover{
@@ -379,7 +371,7 @@ ul.nav_f li{
         
     }
     .blok_6{
-        margin: 50px;
+        margin: 40px;
     }
     .doc{
         font-size: 26pt ;
