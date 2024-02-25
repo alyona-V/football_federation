@@ -120,19 +120,18 @@ img.logo{
     min-height: 130px;
     object-fit: scale-down;
     margin: 5px 0;
-    
+    transition: 0.4s;
 }
 .logo{
     display: flex;
     background-color: #070F5A;
     color: white;
     margin: 0;
-    padding: 10px 0;
     position: relative;
-    min-height: 130px;
-    height: 19vh;
+    height: 25vh;
+    max-height: 177px;
     justify-content: center;
-    
+    transition: 0.4s;
 }
 .right_side{
     float: right;
@@ -143,7 +142,7 @@ img.logo{
     align-items: center;
 }
 .left_side{
-    margin: 0 5.4vw;
+    margin: 0 6.2vw;
     position: relative;
     display: flex;
     flex-flow: row nowrap;
@@ -258,17 +257,19 @@ ul.nav li a:hover{
   }
 
 footer{
-    background: #140152;
+    background: #070F5A;
     color: white;
     padding: 10px;
     text-align: center;
     margin-top: auto;
 }
 .footer_button{
-    background-color: #0C2A82;
+    background-color: #001E7C;
     text-align: center;
     width: 33%;
     color: #fff;
+    font-family: 'roboto_bold';
+    font-size: 14px;
     height: 70px;
     margin: 10px;
 }
