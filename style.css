@@ -26,6 +26,7 @@ body {
     background: #F5F5F5;
     font-family: 'roboto_regular';
     min-height: 100vh;
+    align-items: center;
 }
 h2{
     font-family: 'roboto_regular';
@@ -33,6 +34,7 @@ h2{
     font-weight: 600;
     font-size: 23px;
     margin-bottom: 7vh;
+    align-self: flex-start;
 }
 h4{
     font-family: 'roboto_regular';
@@ -81,14 +83,23 @@ h6{
 .rasdel_more{
     font-family: 'roboto_thin';
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 .header{
     width: 100%;
-    z-index: 100;
     position: sticky;
     top: 0;
+    z-index: 1;
+    height: 30vh;
+    max-height: 227px;
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    -ms-transition: height 0.2s;
+    -o-transition: height 0.2s;
+    transition: height 0.2s;    
 }
+
+
 a{
     color: #fff;
 }
@@ -110,29 +121,30 @@ i a{
     text-align: center;
     width: 100%;
 }
-img.logo{
-    border-radius: 100%;
-    float: left;
-    max-width: 140px;
-    min-width: 130px;
-    width: 18vw;
-    max-height: 140px;
-    min-height: 130px;
-    object-fit: scale-down;
-    margin: 5px 0;
-    transition: 0.4s;
-}
-.logo{
+.logo{ 
+    transition: .2s;
     display: flex;
     background-color: #070F5A;
     color: white;
     margin: 0;
     position: relative;
-    height: 25vh;
-    max-height: 177px;
+    height: 80%;
     justify-content: center;
-    transition: 0.4s;
+    
 }
+img.logo{
+    border-radius: 100%;
+    float: left;
+    height: 80%;
+    width: auto;
+    object-fit: scale-down;
+    -webkit-transition:  0s;
+    -moz-transition:  0s;
+    -ms-transition:  0s;
+    -o-transition:  0s;
+    transition:  0s;  
+}
+
 .right_side{
     float: right;
     margin: 0 auto;
@@ -152,11 +164,16 @@ img.logo{
     margin-left: 10px;
     font-family: 'Inter_header';
     font-size: 20px;
+    width: 340px;
+    
     
 }
 .navigation{
     background: #001E7C;
+    
+    
 }
+
 ul.nav {
     list-style-type: none;
     display: flex;
@@ -171,6 +188,7 @@ ul.nav li{
     display: inline-flex;
     border-left: 1px solid white;
     justify-content: center;
+    align-items: center;
     flex-grow: 1;
     
 }
@@ -179,7 +197,7 @@ ul.nav li:last-child {
 }
 ul.nav li a{
     text-decoration: none;
-    padding: 10px;
+    padding: 14.2px;
     display: block;
     text-align: center;
     width: 100%;
@@ -204,20 +222,22 @@ ul.nav li a:hover{
     max-width: 360px;
     margin-right: 6.3vw;
     
+    
 }
+
 .min_news:last-child{
     margin-right:0;
 }
 .man_img{
     width: 18vw;
-    max-width: 360px;
+    max-width: 260px;
     margin-right: 6.3vw;
 }
 .name_r{
     width: 100%;
     max-width: 1260px;
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     background: #070F5A;
     padding: 0.6rem 3vw ;
@@ -236,6 +256,7 @@ ul.nav li a:hover{
     display: flex;
     padding: 10.5vh 6.2vw;
     width: 100%;
+    max-width: 1440px;
     align-items: flex-start;
     flex-flow: column;
 }
@@ -262,6 +283,7 @@ footer{
     padding: 10px;
     text-align: center;
     margin-top: auto;
+    width: 100%;
 }
 .footer_button{
     background-color: #001E7C;
@@ -278,6 +300,7 @@ footer{
     background-color: #fff;
     width: 15.5vw;
     max-height: 45%;
+    max-width: 225px;
 }
 ul.nav_f{
     width: 100%;
@@ -321,6 +344,7 @@ ul.nav_f li{
     background-color: #fff;
     padding: 2vw 4.6vw 4.2vw 4.6vw  ;
     width: 65vw;
+    max-width: 935px;
     justify-content: space-evenly;
     flex-flow: column;
     text-align: left;
@@ -412,11 +436,13 @@ ul.nav_f li{
 }
 .vert_news{
     width: 25vw;
+    max-width: 360px;
 }
 .blok_2{
     display: flex;
     padding: 10.5vh 6.2vw;
     width: 100%;
+    max-width: 1440px;
     align-items: flex-start;
     flex-flow: nowrap;
     justify-content: space-between;
@@ -436,6 +462,7 @@ ul.nav_f li{
     background-color: #fff;
     padding: 3.4vw 7vw 3.4vw 3.4vw;
     width: 100%;
+    max-height: 270px;
     margin-bottom: 22px;
 }
 .comp_img{
@@ -451,6 +478,7 @@ ul.nav_f li{
     display: flex;
     flex-flow: column;
     width: 67vw;
+    max-width: 850px;
     margin-right: 3.4vw;
 }
 .table{
@@ -462,6 +490,10 @@ ul.nav_f li{
 .min_foto{
     margin-right: 0;
     margin-bottom: 20px;
+    width: 25vw;
+    
+    max-width: 360px;
+    
 }
 .blok_5{
     justify-content: space-around;
@@ -469,36 +501,112 @@ ul.nav_f li{
 }
 .man_cards{
     width: 65vw;
+    max-width: 935px;
 }
 .docs{
     display: flex;
     flex-direction: column;
     width: 65vw;
+    max-width: 935px;
 }
 .karta{
     align-self: center;
     margin-top: 30px;
 }
-.popup {
-    position: fixed;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    left: 0;
-    z-index: 3;
-    overflow: auto;}
-.popup_body {
-    height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+
 .hidden{
     display: none;
 }
+.blok_video{
+    display: flex;
+    padding: 10.5vh 6.2vw;
+    width: 100%;
+    align-items: center;
+    flex-flow: column;
+    max-width: 1440px;
+}
+.video{
+    justify-self: center;
+    align-self: center;
+    width: 50vw;
+    height: 60vh;
+    background-color: #fff;
+    min-width: 600px;
+    min-height: 300px;
+    padding: 4.2vw 4.6vw 4.2vw 4.6vw  ;
+
+}
+@media only screen and (min-device-width: 1440px){
+    .min_news{
+        margin-right: 90px;
+    }
+    .blok_1{
+        padding: 41px 90px;
+    }
+    .scroller__items{
+        min-width: 1260px;
+    }
+    .blok_2{
+        
+        padding: 10.5vh 90px;
+    }
+    .mini_comp{
+        padding: 48px 100px 48px 48px;
+    }
+    .man_img{
+        margin-right: 90px;
+    }
+}
+
+
 @media only screen and (max-device-width: 576px){
+    
+    h2{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    h5{
+        font-size: 30px;
+    }
+    h6{
+        font-size: 30px;
+    }
+    .news_text{
+        font-size: 28px;
+    }
+    .rasdel_more{
+        font-size: 22px ;
+    }
+    
+    .date{
+        font-size: 22px;
+    }
+    .min_news{
+        width: 80vw;
+        max-width: 800px;
+    }
+    .mini_img_vert{
+        height: 45vh;
+        object-fit: cover;
+    }
+    .min_news_vert{
+        width: 25vw;
+        max-width: 360px;
+    }
+    .vert_news{
+        width: 30vw;
+    }
+    .video{
+        
+        width: 80vw;
+        height: 50vw;
+    }
+    .nav_fed{
+        max-width: none;
+    }
     .logo{
         height: 120px;
     }
@@ -514,13 +622,13 @@ ul.nav_f li{
     }
 
     .menu-items {
-        position: absolute;
+        position: fixed;
         top: 60px;
         left: 0;
         width: 100%;
         margin: auto;
-        padding: 10% 0;
-        top: 200px;
+        padding: 20% 0;
+        top: 0;
         justify-content: space-around;
         flex-flow: column;
         align-items: center;
@@ -572,11 +680,11 @@ ul.nav_f li{
         font-size: 20px;
     }
     .logo{
-        height: 200px;
+        height: 177px;
     }
     img.logo{
-        height: 131px;
-        width: 131px;
+        height: 140px;
+        width: 140px;
     }
     .blok_5{
         flex-flow: column;
@@ -589,7 +697,8 @@ ul.nav_f li{
         width: 100%;
         position: sticky;
         z-index: 101;
-        top: 200px;
+        top: 0px;
+        margin-bottom: 40px;
     }
     ul.nav_f{
         flex-flow: row nowrap;
@@ -615,12 +724,11 @@ ul.nav_f li{
         
     }
     .blok_6{
-        margin: 40px;
+        
         align-items: flex-start;
     }
     .doc{
         font-size: 26pt ;
-        margin: 20px 0;
     }
     .footer_text{
         font-size: 20px;
@@ -629,5 +737,8 @@ ul.nav_f li{
     .contacts_foto{
         align-items: center;
         margin: 20px;
+    }
+    .blok_1{
+        padding: 6vh 6.2vw;
     }
 }
