@@ -129,7 +129,7 @@ i a{
     margin: 0;
     position: relative;
     height: 80%;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 img.logo{
@@ -321,7 +321,7 @@ ul.nav_f li{
 .button_a{
     position: relative;
     display: inline-block;
-    
+    border: #070F5A;
     color: #fff;
     background: #070F5A;
     padding: 1vw 1.5vw ;
@@ -541,7 +541,7 @@ ul.nav_f li{
         margin-right: 90px;
     }
     .blok_1{
-        padding: 41px 90px;
+        padding: 10.5vh 90px;
     }
     .scroller__items{
         min-width: 1260px;
@@ -587,6 +587,9 @@ ul.nav_f li{
     .min_news{
         width: 80vw;
         max-width: 800px;
+    }
+    .header{
+        height: 177px;
     }
     .mini_img_vert{
         height: 45vh;
@@ -660,7 +663,7 @@ ul.nav_f li{
         display: flex;
     }
     .text{
-        font-size: 40px;
+        font-size: 30px;
         margin: 5px;
         letter-spacing: initial;
     }
@@ -686,6 +689,8 @@ ul.nav_f li{
         height: 140px;
         width: 140px;
     }
+   
+    
     .blok_5{
         flex-flow: column;
         width: 100%;
@@ -697,7 +702,7 @@ ul.nav_f li{
         width: 100%;
         position: sticky;
         z-index: 101;
-        top: 0px;
+        top: 170px;
         margin-bottom: 40px;
     }
     ul.nav_f{
@@ -716,6 +721,7 @@ ul.nav_f li{
         padding: 1.5rem;
         font-size: 20pt;
         white-space: nowrap;
+        
     }
     .button_neact{
         padding: 1.5rem;
@@ -740,5 +746,8 @@ ul.nav_f li{
     }
     .blok_1{
         padding: 6vh 6.2vw;
+    }
+    #tytle{
+        white-space: wrap;
     }
 }
