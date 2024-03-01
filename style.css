@@ -145,7 +145,7 @@ img.logo{
     transition:  0s;  
 }
 .logo.scroll{
-    height: 90px;
+    height: 15vh;
 }
 .right_side{
     float: right;
@@ -154,6 +154,7 @@ img.logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .left_side{
     margin: 0 6.2vw;
@@ -161,13 +162,14 @@ img.logo{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    
 }  
 .text{
     margin-left: 10px;
     font-family: 'Inter_header';
-    font-size: 20px;
-    width: 340px;
-    
+    font-size: calc(12px + 8 * (100vw - 320px) / 880);
+    width: 30vw;
+    max-width: 670px;
     
 }
 .text.scroll{
@@ -207,7 +209,7 @@ ul.nav li a{
     text-align: center;
     width: 100%;
     font-family: 'roboto_bold';
-    font-size: 18px;
+    font-size: calc(12px + 6 * (100vw - 320px) / 880);
     white-space: nowrap;
 }
 
@@ -306,6 +308,7 @@ footer{
     width: 15.5vw;
     max-height: 45%;
     max-width: 225px;
+    min-width: fit-content;
 }
 ul.nav_f{
     width: 100%;
@@ -319,7 +322,6 @@ ul.nav_f{
 }
 ul.nav_f li{
     background-color: transparent;
-    
     justify-content: stretch;
     
 }
@@ -561,6 +563,9 @@ ul.nav_f li{
     .man_img{
         margin-right: 90px;
     }
+    ul.nav li a{
+        font-size: 20px;
+    }
 }
 
 
@@ -674,6 +679,7 @@ ul.nav_f li{
         font-size: 30px;
         margin: 5px;
         letter-spacing: initial;
+        width: 70vw;
     }
     .example{
         width: 400px;
