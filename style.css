@@ -209,9 +209,11 @@ ul.nav li:last-child {
 }
 ul.nav li a{
     text-decoration: none;
-    padding: 14.2px;
-    display: block;
+    height: 50px;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     font-family: 'roboto_bold';
     font-size: calc(12px + 6 * (100vw - 320px) / 880);
