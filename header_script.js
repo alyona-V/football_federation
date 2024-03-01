@@ -5,8 +5,8 @@ window.onscroll = function() {
 function scrollFunction() { 
   const header = document.getElementById("header");
   const tytle = document.getElementById("tytle");
-  if (document.body.scrollTop > 0 || 
-      document.documentElement.scrollTop > 0) 
+  if (document.body.scrollTop > 50 || 
+      document.documentElement.scrollTop > 50) 
   {  
     header.classList.add('scroll');
     tytle.classList.add('scroll');

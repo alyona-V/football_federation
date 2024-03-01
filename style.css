@@ -122,7 +122,7 @@ i a{
     width: 100%;
 }
 .logo{ 
-    transition: .2s;
+    transition: .3s;
     display: flex;
     background-color: #070F5A;
     color: white;
@@ -138,11 +138,11 @@ img.logo{
     height: 80%;
     width: auto;
     object-fit: scale-down;
-    -webkit-transition:  0s;
-    -moz-transition:  0s;
-    -ms-transition:  0s;
-    -o-transition:  0s;
-    transition:  0s;  
+    -webkit-transition:  1s;
+    -moz-transition:  1s;
+    -ms-transition:  1s;
+    -o-transition:  1s;
+    transition:  1s;  
 }
 .logo.scroll{
     height: 15vh;
@@ -170,6 +170,11 @@ img.logo{
     font-size: calc(12px + 8 * (100vw - 320px) / 880);
     width: 30vw;
     max-width: 670px;
+    -webkit-transition:  3s;
+    -moz-transition:  3s;
+    -ms-transition:  3s;
+    -o-transition:  3s;
+    transition:  3s;
     
 }
 .text.scroll{
