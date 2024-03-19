@@ -721,6 +721,12 @@ transition: all 500ms ease;
         width: 41.5vw;
         max-width: 800px;
     }
+    .news_a{
+        font-size: 30px;
+    }
+    .blue_a{
+        font-size: 40px;
+    }
     .header{
         height: 177px;
         position: sticky;
@@ -738,7 +744,8 @@ transition: all 500ms ease;
         max-width: 360px;
     }
     .vert_news{
-        width: 30vw;
+        display: none;
+        width: 0;
     }
     .name_r{
         margin-bottom: 10px;
@@ -911,5 +918,14 @@ transition: all 500ms ease;
     #tytle{
         white-space: wrap;
     }
-    
+    .blok_2{
+        justify-content: center;
+    }
+    .blok_3{
+        width: 80vw;
+        margin-right: 0;
+    }
+    .comp_img{
+        width: 30vw;
+    }
 }
